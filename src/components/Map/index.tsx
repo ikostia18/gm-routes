@@ -155,7 +155,7 @@ const Map = () => {
   return (
     <div className="container">
       <div className="controls">
-        <h1>Routs</h1>
+        <h1>Routes</h1>
 
         {!origin && (
           <p className="info-text">Search for a location to navigate from</p>

@@ -15,7 +15,7 @@ import { SetStateAction, useState } from 'react';
 const RoutesSelect = () => {
   const [value, setValue] = useState('fruit');
 
-  const routs = [
+  const routes = [
     { label: 'Central Park To One World Trade Center', value: 'NY' },
     { label: 'Azrieli Mall To Levinski Market', value: 'TLV' },
   ];
@@ -85,7 +85,7 @@ const RoutesSelect = () => {
       <label>
         Select your route:
         <select value={value} onChange={handleChange}>
-          {routs.map((route) => (
+          {routes.map((route) => (
             <option value={route.value}>{route.label}</option>
           ))}
         </select>
